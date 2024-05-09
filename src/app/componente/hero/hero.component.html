@@ -1,0 +1,10 @@
+<p>hero works!</p>
+
+<div *ngIf="activado">Div activado</div>
+<div *ngIf="desactivado"> Div desactivado</div>
+
+<div *ngFor="let heroe of heroes">{{ heroe }}</div>
+
+<div *ngFor="let heroe of heroes_list">
+  {{ heroe.name }} - {{ heroe.power }}
+</div>
